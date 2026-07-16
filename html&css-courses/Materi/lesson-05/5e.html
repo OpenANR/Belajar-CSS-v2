@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Arial';
+            margin: 0;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .new-text {
+            font-size: 12px;
+            color: #006cdb;
+            background-color: #006edb16;
+            margin-top: 30px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 50px;
+            font-weight: bold;
+            border: 1px solid #006cdb;
+        }
+
+        .device-name {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .caption-singkat {
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .cost-target {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .buy-button {
+            background-color: rgb(0, 149, 255);
+            border: none;
+            padding: 15px;
+            border-radius: 50px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.15s;
+        }
+
+        .buy-button:hover {
+             background-color: rgb(4, 110, 186);
+        }
+
+        .coret-harga {
+            text-decoration: line-through;
+        }
+
+        img {
+            width: 400px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="new-text">Baru</p>
+    </div>
+
+    <img src="asus.webp" alt="">
+
+    <p class="device-name">Asus Vivobook A416MA</p>
+
+    <p class="caption-singkat">Tingkatkan Produktivitas Anda</p>
+
+    <p class="cost-target">Dimulai dengan <span class="coret-harga">Rp1.500.000</span></p>
+
+    <button class="buy-button">Ambil Sekarang, Gratis!</button>
+</body>
+</html>
